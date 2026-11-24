@@ -1,0 +1,56 @@
+[
+  {
+    "item_id": "sample-rice",
+    "name": "Long grain rice 2 kg",
+    "category": "Groceries",
+    "cost_price": "29.50",
+    "selling_price": "39.99",
+    "quantity": 18,
+    "reorder_level": 5
+  },
+  {
+    "item_id": "sample-soap",
+    "name": "Dishwashing liquid 750 ml",
+    "category": "Household",
+    "cost_price": "18.00",
+    "selling_price": "24.99",
+    "quantity": 3,
+    "reorder_level": 6
+  },
+  {
+    "item_id": "sample-book",
+    "name": "A4 exercise book",
+    "category": "Stationery",
+    "cost_price": "8.50",
+    "selling_price": "13.00",
+    "quantity": 10,
+    "reorder_level": 10
+  },
+  {
+    "item_id": "sample-shirt",
+    "name": "Cotton T-shirt (M)",
+    "category": "Clothing",
+    "cost_price": "65.00",
+    "selling_price": "99.00",
+    "quantity": 8,
+    "reorder_level": 3
+  },
+  {
+    "item_id": "sample-battery",
+    "name": "AA batteries (2-pack)",
+    "category": "Other",
+    "cost_price": "14.00",
+    "selling_price": "22.50",
+    "quantity": 4,
+    "reorder_level": 4
+  },
+  {
+    "item_id": "sample-tea",
+    "name": "Rooibos tea (20 bags)",
+    "category": "Groceries",
+    "cost_price": "17.50",
+    "selling_price": "26.00",
+    "quantity": 14,
+    "reorder_level": 5
+  }
+]

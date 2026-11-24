@@ -1,0 +1,3 @@
+{
+  "python.defaultInterpreterPath": "${env:LOCALAPPDATA}/FletRuntimes/inventory-0.28.3/Scripts/python.exe"
+}

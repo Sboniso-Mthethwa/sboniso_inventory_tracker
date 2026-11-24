@@ -1,0 +1,42 @@
+# MoonwalkerSir's Inventory Tracker
+# Sboniso Mthethwa | FNB App Academy capstone
+#
+# First-time setup
+# Extract the ZIP into a writable folder. Open a terminal in the
+# sboniso_inventory_tracker folder where main.py and this file appear.
+# Use Python 3.13 with pip and an internet connection for installation.
+#
+# Windows (PowerShell or Command Prompt), run each command in order
+#   py -3.13 -m venv .venv
+#   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+#   .\.venv\Scripts\python.exe main.py
+#
+# macOS or Linux with a graphical desktop
+#   python3.13 -m venv .venv
+#   ./.venv/bin/python -m pip install -r requirements.txt
+#   ./.venv/bin/python main.py
+#
+# On later runs, use just the last command for your operating system.
+# In VS Code, open the project folder and use the Python extension's
+# "Python: Select Interpreter" command to select the .venv created above.
+# Open main.py and click "Run Python File" to launch the desktop window.
+#
+# Using the tracker
+# Inventory shows product tiles, stock value at cost, and reorder alerts.
+# Search by name or filter by category. Use + or - to adjust a tile's stock.
+# Choose Product to add an item, enter prices in rand, then select Save product.
+# Use Edit or Delete on an existing tile. Alerts shows items with a quantity
+# at or below their reorder level. Changes save to inventory.json beside main.py.
+# The submission includes sample products. To back up your stock, close the
+# app and copy inventory.json.
+#
+# Packaging for submission
+# Close the app. Remove .venv, venv, __pycache__, build, and dist folders
+# from the submission copy. Keep the source, inventory.json, this file,
+# and any other files the app uses. Zip the sboniso_inventory_tracker folder.
+# Open the ZIP and check that sboniso_inventory_tracker/main.py is inside.
+# In Moodle, choose Add submission, upload the ZIP, and save changes.
+# If Moodle shows Draft, choose Submit assignment and confirm.
+#
+# Required desktop dependency
+flet[desktop]==0.28.3
